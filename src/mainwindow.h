@@ -4,8 +4,9 @@
 #include <QMainWindow>
 #include "trem.h"
 
-namespace Ui {
-class MainWindow;
+namespace Ui
+{
+    class MainWindow;
 }
 
 class MainWindow : public QMainWindow
@@ -16,9 +17,8 @@ public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
 
-
 public slots:
-    void updateInterface(int,int,int);
+    void updateInterface(int, int, int);
 
 private slots:
     void on_pushButton_clicked();
@@ -28,7 +28,7 @@ private slots:
 private:
     Ui::MainWindow *ui;
 
-    //Cria os objetos TREM's
+    // Cria os objetos TREM's
     Trem *trem1;
     Trem *trem2;
 };
