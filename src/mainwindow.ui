@@ -24,10 +24,13 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">QLabel { background: red}</string>
+     <string notr="true">QLabel { background: grey}</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
     <property name="text">
-     <string>T1</string>
+     <string>b</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_trilho1">
@@ -40,7 +43,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">QLabel { background: yellow}</string>
+     <string notr="true">QLabel { background: blue}</string>
     </property>
     <property name="text">
      <string/>
@@ -56,7 +59,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">QLabel { background: yellow}</string>
+     <string notr="true">QLabel { background: blue}</string>
     </property>
     <property name="text">
      <string/>
@@ -72,7 +75,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">QLabel { background: yellow}</string>
+     <string notr="true">QLabel { background: blue}</string>
     </property>
     <property name="text">
      <string/>
@@ -88,7 +91,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">QLabel { background: yellow}</string>
+     <string notr="true">QLabel { background: blue}</string>
     </property>
     <property name="text">
      <string/>
@@ -130,7 +133,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">QLabel { background: yellow}</string>
+     <string notr="true">QLabel { background: blue}</string>
     </property>
     <property name="text">
      <string/>
@@ -146,7 +149,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">QLabel { background: yellow}</string>
+     <string notr="true">QLabel { background: blue}</string>
     </property>
     <property name="text">
      <string/>
@@ -162,7 +165,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">QLabel { background: yellow}</string>
+     <string notr="true">QLabel { background: blue}</string>
     </property>
     <property name="text">
      <string/>
@@ -178,10 +181,13 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">QLabel { background: red}</string>
+     <string notr="true">QLabel { background: grey}</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
     <property name="text">
-     <string>T2</string>
+     <string>c</string>
     </property>
    </widget>
    <zorder>label_trilho1</zorder>

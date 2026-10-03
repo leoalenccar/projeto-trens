@@ -18,25 +18,25 @@ void Trem::run()
         switch (ID)
         {
         case 1: // Trem 1
-            if (y == 30 && x < 330)
-                x += 10;
-            else if (x == 330 && y < 150)
+            if (y < 150 && x == 60)
                 y += 10;
-            else if (x > 60 && y == 150)
-                x -= 10;
-            else
+            else if (x < 330 && y == 150)
+                x += 10;
+            else if (x == 330 && y > 30)
                 y -= 10;
+            else
+                x -= 10;
             emit updateGUI(ID, x, y); // Emite um sinal
             break;
         case 2: // Trem 2
-            if (y == 30 && x < 600)
-                x += 10;
-            else if (x == 600 && y < 150)
+            if (y < 150 && x == 330)
                 y += 10;
-            else if (x > 330 && y == 150)
-                x -= 10;
-            else
+            else if (x < 600 && y == 150)
+                x += 10;
+            else if (x == 600 && y > 30)
                 y -= 10;
+            else
+                x -= 10;
             emit updateGUI(ID, x, y); // Emite um sinal
             break;
         default:
