@@ -18,38 +18,71 @@ void Trem::run()
         switch (ID)
         {
         case 1: // Trem 1
-            if (y < 270 && x == 60)
+            if (y < 150 && x == 195)
                 y += 10;
-            else if (x < 330 && y == 270)
+            else if (x < 735 && y == 150)
                 x += 10;
-            else if (x == 330 && y > 150)
+            else if (x == 735 && y > 30)
                 y -= 10;
             else
                 x -= 10;
             emit updateGUI(ID, x, y); // Emite um sinal
             break;
         case 2: // Trem 2
-            if (y < 270 && x == 330)
+            if (y < 270 && x == 195)
                 y += 10;
-            else if (x < 600 && y == 270)
+            else if (x < 465 && y == 270)
                 x += 10;
-            else if (x == 600 && y > 150)
+            else if (x == 465 && y > 150)
                 y -= 10;
             else
                 x -= 10;
             emit updateGUI(ID, x, y); // Emite um sinal
             break;
         case 3:
-            if (y < 150 && x == 60)
+            if (y < 270 && x == 465)
                 y += 10;
-            else if (x < 600 && y == 150)
+            else if (x < 735 && y == 270)
                 x += 10;
-            else if (x == 600 && y > 30)
+            else if (x == 735 && y > 150)
                 y -= 10;
             else
                 x -= 10;
             emit updateGUI(ID, x, y); // Emite um sinal
-            break;           
+            break;
+        case 4:
+            if (y < 390 && x == 60)
+                y += 10;
+            else if (x < 330 && y == 390)
+                x += 10;
+            else if (x == 330 && y > 270)
+                y -= 10;
+            else
+                x -= 10;
+            emit updateGUI(ID, x, y); // Emite um sinal
+            break;
+        case 5:
+            if (y < 390 && x == 330)
+                y += 10;
+            else if (x < 600 && y == 390)
+                x += 10;
+            else if (x == 600 && y > 270)
+                y -= 10;
+            else
+                x -= 10;
+            emit updateGUI(ID, x, y); // Emite um sinal
+            break;
+        case 6:
+            if (y < 390 && x == 600)
+                y += 10;
+            else if (x < 870 && y == 390)
+                x += 10;
+            else if (x == 870 && y > 270)
+                y -= 10;
+            else
+                x -= 10;
+            emit updateGUI(ID, x, y); // Emite um sinal
+            break;
         default:
             break;
         }

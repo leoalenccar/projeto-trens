@@ -7,10 +7,12 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent),
     ui->setupUi(this);
 
     // Cria o trem com seu (ID, posição X, posição Y)
-    trem1 = new Trem(1, 60, 150);
-    trem2 = new Trem(2, 330, 150);
-    trem3 = new Trem(3, 60, 30);
-
+    trem1 = new Trem(1, 195, 30);
+    trem2 = new Trem(2, 195, 150);
+    trem3 = new Trem(3, 465, 150);
+    trem4 = new Trem(4, 60, 270);
+    trem5 = new Trem(5, 330, 270);
+    trem6 = new Trem(6, 600, 270);
     /*
      * Conecta o sinal UPDATEGUI à função UPDATEINTERFACE.
      * Ou seja, sempre que o sinal UPDATEGUI foi chamado, será executada a função UPDATEINTERFACE.
@@ -21,6 +23,9 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent),
     connect(trem1, SIGNAL(updateGUI(int, int, int)), SLOT(updateInterface(int, int, int)));
     connect(trem2, SIGNAL(updateGUI(int, int, int)), SLOT(updateInterface(int, int, int)));
     connect(trem3, SIGNAL(updateGUI(int, int, int)), SLOT(updateInterface(int, int, int)));
+    connect(trem4, SIGNAL(updateGUI(int, int, int)), SLOT(updateInterface(int, int, int)));
+    connect(trem5, SIGNAL(updateGUI(int, int, int)), SLOT(updateInterface(int, int, int)));
+    connect(trem6, SIGNAL(updateGUI(int, int, int)), SLOT(updateInterface(int, int, int)));
 }
 
 // Função que será executada quando o sinal UPDATEGUI for emitido
@@ -36,6 +41,15 @@ void MainWindow::updateInterface(int id, int x, int y)
         break;
     case 3:
         ui->label_trem3->setGeometry(x, y, 21, 17);
+        break;
+    case 4:
+        ui->label_trem4->setGeometry(x, y, 21, 17);
+        break;
+    case 5:
+        ui->label_trem5->setGeometry(x, y, 21, 17);
+        break;
+    case 6:
+        ui->label_trem6->setGeometry(x, y, 21, 17);
         break;
     default:
         break;
@@ -55,6 +69,9 @@ void MainWindow::on_pushButton_clicked()
     trem1->start();
     trem2->start();
     trem3->start();
+    trem4->start();
+    trem5->start();
+    trem6->start();
 }
 
 /*
@@ -65,4 +82,7 @@ void MainWindow::on_pushButton_2_clicked()
     trem1->terminate();
     trem2->terminate();
     trem3->terminate();
+    trem4->terminate();
+    trem5->terminate();
+    trem6->terminate();
 }
