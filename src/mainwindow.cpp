@@ -26,6 +26,22 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent),
     connect(trem4, SIGNAL(updateGUI(int, int, int)), SLOT(updateInterface(int, int, int)));
     connect(trem5, SIGNAL(updateGUI(int, int, int)), SLOT(updateInterface(int, int, int)));
     connect(trem6, SIGNAL(updateGUI(int, int, int)), SLOT(updateInterface(int, int, int)));
+
+    // inicializa os slider
+    ui->horizontalSlider_1->setRange(0, 100);
+    ui->horizontalSlider_1->setValue(50);
+    ui->horizontalSlider_2->setRange(0, 100);
+    ui->horizontalSlider_2->setValue(50);
+    ui->horizontalSlider_3->setRange(0, 100);
+    ui->horizontalSlider_3->setValue(50);
+    ui->horizontalSlider_4->setRange(0, 100);
+    ui->horizontalSlider_4->setValue(50);
+    ui->horizontalSlider_5->setRange(0, 100);
+    ui->horizontalSlider_5->setValue(50);
+    ui->horizontalSlider_6->setRange(0, 100);
+    ui->horizontalSlider_6->setValue(50);
+    ui->horizontalSlider_m->setRange(0, 100);
+    ui->horizontalSlider_m->setValue(50);
 }
 
 // Função que será executada quando o sinal UPDATEGUI for emitido
@@ -85,4 +101,51 @@ void MainWindow::on_pushButton_2_clicked()
     trem4->terminate();
     trem5->terminate();
     trem6->terminate();
+}
+
+void MainWindow::on_horizontalSlider_1_valueChanged(int value)
+{
+    trem1->setVelocidade(value);
+}
+
+void MainWindow::on_horizontalSlider_2_valueChanged(int value)
+{
+    trem2->setVelocidade(value);
+}
+
+void MainWindow::on_horizontalSlider_3_valueChanged(int value)
+{
+    trem3->setVelocidade(value);
+}
+
+void MainWindow::on_horizontalSlider_4_valueChanged(int value)
+{
+    trem4->setVelocidade(value);
+}
+
+void MainWindow::on_horizontalSlider_5_valueChanged(int value)
+{
+    trem5->setVelocidade(value);
+}
+
+void MainWindow::on_horizontalSlider_6_valueChanged(int value)
+{
+    trem6->setVelocidade(value);
+}
+
+void MainWindow::on_horizontalSlider_m_valueChanged(int value)
+{
+    trem1->setVelocidade(value);
+    trem2->setVelocidade(value);
+    trem3->setVelocidade(value);
+    trem4->setVelocidade(value);
+    trem5->setVelocidade(value);
+    trem6->setVelocidade(value);
+
+    ui->horizontalSlider_1->setValue(value);
+    ui->horizontalSlider_2->setValue(value);
+    ui->horizontalSlider_3->setValue(value);
+    ui->horizontalSlider_4->setValue(value);
+    ui->horizontalSlider_5->setValue(value);
+    ui->horizontalSlider_6->setValue(value);
 }

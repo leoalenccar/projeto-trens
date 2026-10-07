@@ -15,6 +15,12 @@ void Trem::run()
 {
     while (true)
     {
+        if (velocidade == 0)
+        {
+            msleep(50);
+            continue;
+        }
+        
         switch (ID)
         {
         case 1: // Trem 1
@@ -86,6 +92,11 @@ void Trem::run()
         default:
             break;
         }
-        msleep(velocidade);
+        msleep(101 - velocidade);
     }
+}
+
+void Trem::setVelocidade(int value)
+{
+    velocidade = value;
 }
