@@ -20,7 +20,7 @@ void Trem::run()
             msleep(50);
             continue;
         }
-        
+
         switch (ID)
         {
         case 1: // Trem 1
