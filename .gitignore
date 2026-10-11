@@ -1,1 +1,5 @@
 build/
+.qtcreator/
+*.user
+*.user.*
+.vscode/
