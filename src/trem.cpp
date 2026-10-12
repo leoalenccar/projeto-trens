@@ -7,7 +7,7 @@ Trem::Trem(int ID, int x, int y)
     this->ID = ID;
     this->x = x;
     this->y = y;
-    velocidade = 100;
+    velocidade = 200;
 }
 
 // Função a ser executada após executar trem->START
@@ -92,7 +92,7 @@ void Trem::run()
         default:
             break;
         }
-        msleep(101 - velocidade);
+        msleep(201 - velocidade);
     }
 }
 

@@ -28,20 +28,20 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent),
     connect(trem6, SIGNAL(updateGUI(int, int, int)), SLOT(updateInterface(int, int, int)));
 
     // inicializa os slider
-    ui->horizontalSlider_1->setRange(0, 100);
-    ui->horizontalSlider_1->setValue(50);
-    ui->horizontalSlider_2->setRange(0, 100);
-    ui->horizontalSlider_2->setValue(50);
-    ui->horizontalSlider_3->setRange(0, 100);
-    ui->horizontalSlider_3->setValue(50);
-    ui->horizontalSlider_4->setRange(0, 100);
-    ui->horizontalSlider_4->setValue(50);
-    ui->horizontalSlider_5->setRange(0, 100);
-    ui->horizontalSlider_5->setValue(50);
-    ui->horizontalSlider_6->setRange(0, 100);
-    ui->horizontalSlider_6->setValue(50);
-    ui->horizontalSlider_m->setRange(0, 100);
-    ui->horizontalSlider_m->setValue(50);
+    ui->horizontalSlider_1->setRange(0, 200);
+    ui->horizontalSlider_1->setValue(100);
+    ui->horizontalSlider_2->setRange(0, 200);
+    ui->horizontalSlider_2->setValue(100);
+    ui->horizontalSlider_3->setRange(0, 200);
+    ui->horizontalSlider_3->setValue(100);
+    ui->horizontalSlider_4->setRange(0, 200);
+    ui->horizontalSlider_4->setValue(100);
+    ui->horizontalSlider_5->setRange(0, 200);
+    ui->horizontalSlider_5->setValue(100);
+    ui->horizontalSlider_6->setRange(0, 200);
+    ui->horizontalSlider_6->setValue(100);
+    ui->horizontalSlider_m->setRange(0, 200);
+    ui->horizontalSlider_m->setValue(100);
 }
 
 // Função que será executada quando o sinal UPDATEGUI for emitido
