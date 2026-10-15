@@ -36,9 +36,9 @@
    <widget class="QLabel" name="label_trilho2">
     <property name="geometry">
      <rect>
-      <x>215</x>
+      <x>194</x>
       <y>150</y>
-      <width>250</width>
+      <width>271</width>
       <height>17</height>
      </rect>
     </property>
@@ -53,13 +53,13 @@
     <property name="geometry">
      <rect>
       <x>465</x>
-      <y>167</y>
+      <y>150</y>
       <width>21</width>
-      <height>103</height>
+      <height>137</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 170, 0);</string>
+     <string notr="true">   background-color: red;</string>
     </property>
     <property name="text">
      <string/>
@@ -102,7 +102,7 @@
      <rect>
       <x>485</x>
       <y>150</y>
-      <width>250</width>
+      <width>271</width>
       <height>17</height>
      </rect>
     </property>
@@ -203,13 +203,13 @@
     <property name="geometry">
      <rect>
       <x>330</x>
-      <y>287</y>
+      <y>270</y>
       <width>21</width>
-      <height>103</height>
+      <height>137</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 170, 0);</string>
+     <string notr="true">   background-color: red;</string>
     </property>
     <property name="text">
      <string/>
@@ -219,13 +219,13 @@
     <property name="geometry">
      <rect>
       <x>600</x>
-      <y>287</y>
+      <y>270</y>
       <width>21</width>
-      <height>103</height>
+      <height>137</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 170, 0);</string>
+     <string notr="true">   background-color: red;</string>
     </property>
     <property name="text">
      <string/>
@@ -618,9 +618,9 @@ color: rgb(255, 255, 255);</string>
    <widget class="QLabel" name="label_trilho2_10">
     <property name="geometry">
      <rect>
-      <x>215</x>
+      <x>194</x>
       <y>270</y>
-      <width>115</width>
+      <width>136</width>
       <height>17</height>
      </rect>
     </property>
@@ -668,7 +668,7 @@ color: rgb(255, 255, 255);</string>
      <rect>
       <x>620</x>
       <y>270</y>
-      <width>115</width>
+      <width>136</width>
       <height>17</height>
      </rect>
     </property>
@@ -690,166 +690,6 @@ color: rgb(255, 255, 255);</string>
     </property>
     <property name="styleSheet">
      <string notr="true">QLabel { background: blue}</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_trilho4_9">
-    <property name="geometry">
-     <rect>
-      <x>735</x>
-      <y>150</y>
-      <width>21</width>
-      <height>17</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 0, 0);</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_trilho4_10">
-    <property name="geometry">
-     <rect>
-      <x>465</x>
-      <y>150</y>
-      <width>21</width>
-      <height>17</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 0, 0);</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_trilho4_11">
-    <property name="geometry">
-     <rect>
-      <x>195</x>
-      <y>150</y>
-      <width>21</width>
-      <height>17</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 0, 0);</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_trilho4_12">
-    <property name="geometry">
-     <rect>
-      <x>735</x>
-      <y>270</y>
-      <width>21</width>
-      <height>17</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 0, 0);</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_trilho4_13">
-    <property name="geometry">
-     <rect>
-      <x>600</x>
-      <y>270</y>
-      <width>21</width>
-      <height>17</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 0, 0);</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_trilho4_14">
-    <property name="geometry">
-     <rect>
-      <x>600</x>
-      <y>390</y>
-      <width>21</width>
-      <height>17</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 0, 0);</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_trilho4_15">
-    <property name="geometry">
-     <rect>
-      <x>465</x>
-      <y>270</y>
-      <width>21</width>
-      <height>17</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 0, 0);</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_trilho4_16">
-    <property name="geometry">
-     <rect>
-      <x>330</x>
-      <y>270</y>
-      <width>21</width>
-      <height>17</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 0, 0);</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_trilho4_17">
-    <property name="geometry">
-     <rect>
-      <x>195</x>
-      <y>270</y>
-      <width>21</width>
-      <height>17</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 0, 0);</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_trilho4_18">
-    <property name="geometry">
-     <rect>
-      <x>330</x>
-      <y>390</y>
-      <width>21</width>
-      <height>17</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 0, 0);</string>
     </property>
     <property name="text">
      <string/>
@@ -890,6 +730,7 @@ color: rgb(255, 255, 255);</string>
    <zorder>label_trilho2_12</zorder>
    <zorder>label_trilho2_13</zorder>
    <zorder>label_trilho2_14</zorder>
+<<<<<<< HEAD
    <zorder>label_trilho4_9</zorder>
    <zorder>label_trilho4_10</zorder>
    <zorder>label_trilho4_11</zorder>
@@ -900,6 +741,8 @@ color: rgb(255, 255, 255);</string>
    <zorder>label_trilho4_16</zorder>
    <zorder>label_trilho4_17</zorder>
    <zorder>label_trilho4_18</zorder>
+=======
+>>>>>>> arthur
    <zorder>label_trem5</zorder>
    <zorder>label_trem6</zorder>
    <zorder>label_trem3</zorder>
