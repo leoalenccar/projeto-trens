@@ -730,19 +730,6 @@ color: rgb(255, 255, 255);</string>
    <zorder>label_trilho2_12</zorder>
    <zorder>label_trilho2_13</zorder>
    <zorder>label_trilho2_14</zorder>
-<<<<<<< HEAD
-   <zorder>label_trilho4_9</zorder>
-   <zorder>label_trilho4_10</zorder>
-   <zorder>label_trilho4_11</zorder>
-   <zorder>label_trilho4_12</zorder>
-   <zorder>label_trilho4_13</zorder>
-   <zorder>label_trilho4_14</zorder>
-   <zorder>label_trilho4_15</zorder>
-   <zorder>label_trilho4_16</zorder>
-   <zorder>label_trilho4_17</zorder>
-   <zorder>label_trilho4_18</zorder>
-=======
->>>>>>> arthur
    <zorder>label_trem5</zorder>
    <zorder>label_trem6</zorder>
    <zorder>label_trem3</zorder>
