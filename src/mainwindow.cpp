@@ -42,6 +42,13 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent),
     ui->horizontalSlider_6->setValue(100);
     ui->horizontalSlider_m->setRange(0, 200);
     ui->horizontalSlider_m->setValue(100);
+
+    trem1->start();
+    trem2->start();
+    trem3->start();
+    trem4->start();
+    trem5->start();
+    trem6->start();
 }
 
 // Função que será executada quando o sinal UPDATEGUI for emitido
@@ -75,32 +82,6 @@ void MainWindow::updateInterface(int id, int x, int y)
 MainWindow::~MainWindow()
 {
     delete ui;
-}
-
-/*
- * Ao clicar, trens começam execução
- */
-void MainWindow::on_pushButton_clicked()
-{
-    trem1->start();
-    trem2->start();
-    trem3->start();
-    trem4->start();
-    trem5->start();
-    trem6->start();
-}
-
-/*
- * Ao clicar, trens param execução
- */
-void MainWindow::on_pushButton_2_clicked()
-{
-    trem1->terminate();
-    trem2->terminate();
-    trem3->terminate();
-    trem4->terminate();
-    trem5->terminate();
-    trem6->terminate();
 }
 
 void MainWindow::on_horizontalSlider_1_valueChanged(int value)
