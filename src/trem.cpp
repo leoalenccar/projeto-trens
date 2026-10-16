@@ -10,6 +10,9 @@ Trem::Trem(int ID, int x, int y)
     velocidade = 200;
 }
 
+QMutex Trem::mutexab;
+QMutex Trem::mutexac;
+
 // Função a ser executada após executar trem->START
 void Trem::run()
 {
@@ -20,6 +23,14 @@ void Trem::run()
             msleep(50);
             continue;
         }
+
+        // trilho ab
+        if (ID == 1 && x == 195 && y == 130) mutexab.lock();
+        if (ID == 2 && x == 465 && y == 170) mutexab.lock();
+
+        // trilho ac
+        if (ID == 1 && x == 435 && y == 150) mutexac.lock();
+        if (ID == 3 && x == 735 && y == 170) mutexac.lock();
 
         switch (ID)
         {
@@ -92,6 +103,15 @@ void Trem::run()
         default:
             break;
         }
+
+        // trilho ab
+        if (ID == 1 && x == 505 && y == 150) mutexab.unlock();
+        if (ID == 2 && x == 195 && y == 180) mutexab.unlock();
+
+        // trilho ac
+        if (ID == 1 && x == 735 && y == 130) mutexac.unlock();
+        if (ID == 3 && x == 465 && y == 170) mutexac.unlock();
+
         msleep(201 - velocidade);
     }
 }

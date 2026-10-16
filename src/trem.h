@@ -2,6 +2,7 @@
 #define TREM_H
 
 #include <QThread>
+#include <QMutex>
 
 /*
  * Classe Trem herda QThread
@@ -27,6 +28,15 @@ private:
     int y;          // posição Y do trem na tela
     int ID;         // ID do trem
     int velocidade; // Velocidade. É o tempo de dormir em milisegundos entre a mudança de posição do trem
+    static QMutex mutexab;
+    static QMutex mutexac;
+    static QMutex mutexbc;
+    static QMutex mutexbd;
+    static QMutex mutexbe;
+    static QMutex mutexce;
+    static QMutex mutexcf;
+    static QMutex mutexde;
+    static QMutex mutexef;
 };
 
 #endif // TREM_H
