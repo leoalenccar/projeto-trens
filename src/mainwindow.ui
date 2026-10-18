@@ -36,9 +36,9 @@
    <widget class="QLabel" name="label_trilho2">
     <property name="geometry">
      <rect>
-      <x>194</x>
+      <x>195</x>
       <y>150</y>
-      <width>271</width>
+      <width>270</width>
       <height>17</height>
      </rect>
     </property>
@@ -100,9 +100,9 @@
    <widget class="QLabel" name="label_trilho2_2">
     <property name="geometry">
      <rect>
-      <x>485</x>
+      <x>486</x>
       <y>150</y>
-      <width>271</width>
+      <width>270</width>
       <height>17</height>
      </rect>
     </property>
@@ -234,7 +234,7 @@
    <widget class="QLabel" name="label_trilho2_5">
     <property name="geometry">
      <rect>
-      <x>350</x>
+      <x>351</x>
       <y>390</y>
       <width>250</width>
       <height>17</height>
@@ -250,7 +250,7 @@
    <widget class="QLabel" name="label_trilho2_6">
     <property name="geometry">
      <rect>
-      <x>620</x>
+      <x>621</x>
       <y>390</y>
       <width>250</width>
       <height>17</height>
@@ -618,9 +618,9 @@ color: rgb(255, 255, 255);</string>
    <widget class="QLabel" name="label_trilho2_10">
     <property name="geometry">
      <rect>
-      <x>194</x>
+      <x>195</x>
       <y>270</y>
-      <width>136</width>
+      <width>135</width>
       <height>17</height>
      </rect>
     </property>
@@ -634,9 +634,9 @@ color: rgb(255, 255, 255);</string>
    <widget class="QLabel" name="label_trilho2_11">
     <property name="geometry">
      <rect>
-      <x>350</x>
+      <x>351</x>
       <y>270</y>
-      <width>115</width>
+      <width>114</width>
       <height>17</height>
      </rect>
     </property>
@@ -650,9 +650,9 @@ color: rgb(255, 255, 255);</string>
    <widget class="QLabel" name="label_trilho2_12">
     <property name="geometry">
      <rect>
-      <x>485</x>
+      <x>486</x>
       <y>270</y>
-      <width>115</width>
+      <width>114</width>
       <height>17</height>
      </rect>
     </property>
@@ -666,9 +666,9 @@ color: rgb(255, 255, 255);</string>
    <widget class="QLabel" name="label_trilho2_13">
     <property name="geometry">
      <rect>
-      <x>620</x>
+      <x>621</x>
       <y>270</y>
-      <width>136</width>
+      <width>135</width>
       <height>17</height>
      </rect>
     </property>
@@ -682,7 +682,7 @@ color: rgb(255, 255, 255);</string>
    <widget class="QLabel" name="label_trilho2_14">
     <property name="geometry">
      <rect>
-      <x>755</x>
+      <x>756</x>
       <y>270</y>
       <width>115</width>
       <height>17</height>
