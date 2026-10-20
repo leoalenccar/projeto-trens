@@ -19,9 +19,14 @@
      <rect>
       <x>195</x>
       <y>210</y>
-      <width>21</width>
-      <height>17</height>
+      <width>20</width>
+      <height>15</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(187, 187, 187);</string>
@@ -39,7 +44,7 @@
       <x>195</x>
       <y>150</y>
       <width>270</width>
-      <height>17</height>
+      <height>15</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -54,8 +59,8 @@
      <rect>
       <x>465</x>
       <y>150</y>
-      <width>21</width>
-      <height>137</height>
+      <width>20</width>
+      <height>135</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -70,7 +75,7 @@
      <rect>
       <x>195</x>
       <y>30</y>
-      <width>21</width>
+      <width>20</width>
       <height>120</height>
      </rect>
     </property>
@@ -86,7 +91,7 @@
      <rect>
       <x>735</x>
       <y>30</y>
-      <width>21</width>
+      <width>20</width>
       <height>120</height>
      </rect>
     </property>
@@ -100,10 +105,10 @@
    <widget class="QLabel" name="label_trilho2_2">
     <property name="geometry">
      <rect>
-      <x>486</x>
+      <x>485</x>
       <y>150</y>
       <width>270</width>
-      <height>17</height>
+      <height>15</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -118,9 +123,14 @@
      <rect>
       <x>735</x>
       <y>210</y>
-      <width>21</width>
-      <height>17</height>
+      <width>20</width>
+      <height>15</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(187, 187, 187);</string>
@@ -136,9 +146,9 @@
     <property name="geometry">
      <rect>
       <x>195</x>
-      <y>167</y>
-      <width>21</width>
-      <height>103</height>
+      <y>165</y>
+      <width>20</width>
+      <height>105</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -152,9 +162,9 @@
     <property name="geometry">
      <rect>
       <x>735</x>
-      <y>167</y>
-      <width>21</width>
-      <height>103</height>
+      <y>165</y>
+      <width>20</width>
+      <height>105</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -169,9 +179,14 @@
      <rect>
       <x>465</x>
       <y>30</y>
-      <width>21</width>
-      <height>17</height>
+      <width>20</width>
+      <height>15</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(187, 187, 187);</string>
@@ -189,7 +204,7 @@
       <x>215</x>
       <y>30</y>
       <width>520</width>
-      <height>17</height>
+      <height>15</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -204,8 +219,8 @@
      <rect>
       <x>330</x>
       <y>270</y>
-      <width>21</width>
-      <height>137</height>
+      <width>20</width>
+      <height>135</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -220,8 +235,8 @@
      <rect>
       <x>600</x>
       <y>270</y>
-      <width>21</width>
-      <height>137</height>
+      <width>20</width>
+      <height>135</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -234,10 +249,10 @@
    <widget class="QLabel" name="label_trilho2_5">
     <property name="geometry">
      <rect>
-      <x>351</x>
+      <x>350</x>
       <y>390</y>
       <width>250</width>
-      <height>17</height>
+      <height>15</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -250,10 +265,10 @@
    <widget class="QLabel" name="label_trilho2_6">
     <property name="geometry">
      <rect>
-      <x>621</x>
+      <x>620</x>
       <y>390</y>
       <width>250</width>
-      <height>17</height>
+      <height>15</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -268,8 +283,8 @@
      <rect>
       <x>870</x>
       <y>270</y>
-      <width>21</width>
-      <height>137</height>
+      <width>20</width>
+      <height>135</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -285,7 +300,7 @@
       <x>80</x>
       <y>270</y>
       <width>115</width>
-      <height>17</height>
+      <height>15</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -301,7 +316,7 @@
       <x>80</x>
       <y>390</y>
       <width>250</width>
-      <height>17</height>
+      <height>15</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -316,8 +331,8 @@
      <rect>
       <x>60</x>
       <y>270</y>
-      <width>21</width>
-      <height>137</height>
+      <width>20</width>
+      <height>135</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -332,9 +347,14 @@
      <rect>
       <x>60</x>
       <y>330</y>
-      <width>21</width>
-      <height>17</height>
+      <width>20</width>
+      <height>15</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(187, 187, 187);</string>
@@ -351,9 +371,14 @@
      <rect>
       <x>460</x>
       <y>390</y>
-      <width>21</width>
-      <height>17</height>
+      <width>20</width>
+      <height>15</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(187, 187, 187);</string>
@@ -370,9 +395,14 @@
      <rect>
       <x>870</x>
       <y>330</y>
-      <width>21</width>
-      <height>17</height>
+      <width>20</width>
+      <height>15</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(187, 187, 187);</string>
@@ -621,7 +651,7 @@ color: rgb(255, 255, 255);</string>
       <x>195</x>
       <y>270</y>
       <width>135</width>
-      <height>17</height>
+      <height>15</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -634,10 +664,10 @@ color: rgb(255, 255, 255);</string>
    <widget class="QLabel" name="label_trilho2_11">
     <property name="geometry">
      <rect>
-      <x>351</x>
+      <x>350</x>
       <y>270</y>
-      <width>114</width>
-      <height>17</height>
+      <width>115</width>
+      <height>15</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -650,10 +680,10 @@ color: rgb(255, 255, 255);</string>
    <widget class="QLabel" name="label_trilho2_12">
     <property name="geometry">
      <rect>
-      <x>486</x>
+      <x>485</x>
       <y>270</y>
-      <width>114</width>
-      <height>17</height>
+      <width>115</width>
+      <height>15</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -666,10 +696,10 @@ color: rgb(255, 255, 255);</string>
    <widget class="QLabel" name="label_trilho2_13">
     <property name="geometry">
      <rect>
-      <x>621</x>
+      <x>620</x>
       <y>270</y>
       <width>135</width>
-      <height>17</height>
+      <height>15</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -682,10 +712,10 @@ color: rgb(255, 255, 255);</string>
    <widget class="QLabel" name="label_trilho2_14">
     <property name="geometry">
      <rect>
-      <x>756</x>
+      <x>755</x>
       <y>270</y>
       <width>115</width>
-      <height>17</height>
+      <height>15</height>
      </rect>
     </property>
     <property name="styleSheet">

@@ -29,19 +29,19 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent),
 
     // inicializa os slider
     ui->horizontalSlider_1->setRange(0, 200);
-    ui->horizontalSlider_1->setValue(100);
+    ui->horizontalSlider_1->setValue(15);
     ui->horizontalSlider_2->setRange(0, 200);
-    ui->horizontalSlider_2->setValue(100);
+    ui->horizontalSlider_2->setValue(15);
     ui->horizontalSlider_3->setRange(0, 200);
-    ui->horizontalSlider_3->setValue(100);
+    ui->horizontalSlider_3->setValue(15);
     ui->horizontalSlider_4->setRange(0, 200);
-    ui->horizontalSlider_4->setValue(100);
+    ui->horizontalSlider_4->setValue(15);
     ui->horizontalSlider_5->setRange(0, 200);
-    ui->horizontalSlider_5->setValue(100);
+    ui->horizontalSlider_5->setValue(15);
     ui->horizontalSlider_6->setRange(0, 200);
-    ui->horizontalSlider_6->setValue(100);
+    ui->horizontalSlider_6->setValue(15);
     ui->horizontalSlider_m->setRange(0, 200);
-    ui->horizontalSlider_m->setValue(100);
+    ui->horizontalSlider_m->setValue(15);
 
     trem1->start();
     trem2->start();
@@ -57,22 +57,22 @@ void MainWindow::updateInterface(int id, int x, int y)
     switch (id)
     {
     case 1: // Atualiza a posição do objeto da tela (quadrado) que representa o trem1
-        ui->label_trem1->setGeometry(x, y, 21, 17);
+        ui->label_trem1->setGeometry(x, y, 20, 15);
         break;
     case 2: // Atualiza a posição do objeto da tela (quadrado) que representa o trem2
-        ui->label_trem2->setGeometry(x, y, 21, 17);
+        ui->label_trem2->setGeometry(x, y, 20, 15);
         break;
     case 3:
-        ui->label_trem3->setGeometry(x, y, 21, 17);
+        ui->label_trem3->setGeometry(x, y, 20, 15);
         break;
     case 4:
-        ui->label_trem4->setGeometry(x, y, 21, 17);
+        ui->label_trem4->setGeometry(x, y, 20, 15);
         break;
     case 5:
-        ui->label_trem5->setGeometry(x, y, 21, 17);
+        ui->label_trem5->setGeometry(x, y, 20, 15);
         break;
     case 6:
-        ui->label_trem6->setGeometry(x, y, 21, 17);
+        ui->label_trem6->setGeometry(x, y, 20, 15);
         break;
     default:
         break;
