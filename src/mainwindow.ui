@@ -14,7 +14,7 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <widget class="QLabel" name="label_trem2">
+   <widget class="QLabel" name="label_trem_b">
     <property name="geometry">
      <rect>
       <x>195</x>
@@ -118,7 +118,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QLabel" name="label_trem3">
+   <widget class="QLabel" name="label_trem_c">
     <property name="geometry">
      <rect>
       <x>735</x>
@@ -174,7 +174,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QLabel" name="label_trem1">
+   <widget class="QLabel" name="label_trem_a">
     <property name="geometry">
      <rect>
       <x>465</x>
@@ -342,7 +342,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QLabel" name="label_trem4">
+   <widget class="QLabel" name="label_trem_d">
     <property name="geometry">
      <rect>
       <x>60</x>
@@ -366,7 +366,7 @@
      <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QLabel" name="label_trem5">
+   <widget class="QLabel" name="label_trem_e">
     <property name="geometry">
      <rect>
       <x>465</x>
@@ -390,7 +390,7 @@
      <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QLabel" name="label_trem6">
+   <widget class="QLabel" name="label_trem_f">
     <property name="geometry">
      <rect>
       <x>870</x>
@@ -414,7 +414,7 @@
      <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QSlider" name="horizontalSlider_1">
+   <widget class="QSlider" name="horizontalSlider_a">
     <property name="geometry">
      <rect>
       <x>940</x>
@@ -427,7 +427,7 @@
      <enum>Qt::Orientation::Horizontal</enum>
     </property>
    </widget>
-   <widget class="QSlider" name="horizontalSlider_2">
+   <widget class="QSlider" name="horizontalSlider_b">
     <property name="geometry">
      <rect>
       <x>940</x>
@@ -440,7 +440,7 @@
      <enum>Qt::Orientation::Horizontal</enum>
     </property>
    </widget>
-   <widget class="QSlider" name="horizontalSlider_3">
+   <widget class="QSlider" name="horizontalSlider_c">
     <property name="geometry">
      <rect>
       <x>940</x>
@@ -453,7 +453,7 @@
      <enum>Qt::Orientation::Horizontal</enum>
     </property>
    </widget>
-   <widget class="QSlider" name="horizontalSlider_4">
+   <widget class="QSlider" name="horizontalSlider_d">
     <property name="geometry">
      <rect>
       <x>940</x>
@@ -466,7 +466,7 @@
      <enum>Qt::Orientation::Horizontal</enum>
     </property>
    </widget>
-   <widget class="QSlider" name="horizontalSlider_5">
+   <widget class="QSlider" name="horizontalSlider_e">
     <property name="geometry">
      <rect>
       <x>940</x>
@@ -479,7 +479,7 @@
      <enum>Qt::Orientation::Horizontal</enum>
     </property>
    </widget>
-   <widget class="QSlider" name="horizontalSlider_6">
+   <widget class="QSlider" name="horizontalSlider_f">
     <property name="geometry">
      <rect>
       <x>940</x>
@@ -741,12 +741,12 @@ color: rgb(255, 255, 255);</string>
    <zorder>label_trilho4_4</zorder>
    <zorder>label_trilho4_6</zorder>
    <zorder>label_trilho2</zorder>
-   <zorder>horizontalSlider_1</zorder>
-   <zorder>horizontalSlider_2</zorder>
-   <zorder>horizontalSlider_3</zorder>
-   <zorder>horizontalSlider_4</zorder>
-   <zorder>horizontalSlider_5</zorder>
-   <zorder>horizontalSlider_6</zorder>
+   <zorder>horizontalSlider_a</zorder>
+   <zorder>horizontalSlider_b</zorder>
+   <zorder>horizontalSlider_c</zorder>
+   <zorder>horizontalSlider_d</zorder>
+   <zorder>horizontalSlider_e</zorder>
+   <zorder>horizontalSlider_f</zorder>
    <zorder>horizontalSlider_m</zorder>
    <zorder>label_a</zorder>
    <zorder>label_b</zorder>
@@ -760,12 +760,12 @@ color: rgb(255, 255, 255);</string>
    <zorder>label_trilho2_12</zorder>
    <zorder>label_trilho2_13</zorder>
    <zorder>label_trilho2_14</zorder>
-   <zorder>label_trem5</zorder>
-   <zorder>label_trem6</zorder>
-   <zorder>label_trem3</zorder>
-   <zorder>label_trem1</zorder>
-   <zorder>label_trem2</zorder>
-   <zorder>label_trem4</zorder>
+   <zorder>label_trem_e</zorder>
+   <zorder>label_trem_f</zorder>
+   <zorder>label_trem_c</zorder>
+   <zorder>label_trem_a</zorder>
+   <zorder>label_trem_b</zorder>
+   <zorder>label_trem_d</zorder>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
