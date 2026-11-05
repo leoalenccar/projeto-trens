@@ -31,29 +31,33 @@ void Trem::run()
             continue;
         }
 
+        // trilho ac
+        if (ID == 1 && x == 195 && y == 135) mutexac.lock();
+        if (ID == 3 && x == 735 && y == 165) mutexac.lock();
+
         // trilho ab
         if (ID == 1 && x == 195 && y == 135) mutexab.lock();
         if (ID == 2 && x == 465 && y == 165) mutexab.lock();
-
-        // trilho ac
-        if (ID == 1 && x == 445 && y == 150) mutexac.lock();
-        if (ID == 3 && x == 735 && y == 165) mutexac.lock();
 
         // trilho bc
         if (ID == 2 && x == 445 && y == 270) mutexbc.lock();
         if (ID == 3 && x == 485 && y == 150) mutexbc.lock();
 
+        // trilho be
+        if (ID == 2 && x == 195 && y == 255) mutexbe.lock();
+        if (ID == 5 && x == 600 && y == 285) mutexbe.lock();
+
         // trilho bd
         if (ID == 2 && x == 195 && y == 255) mutexbd.lock();
         if (ID == 4 && x == 330 && y == 285) mutexbd.lock();
 
-        // trilho be
-        if (ID == 2 && x == 310 && y == 270) mutexbe.lock();
-        if (ID == 5 && x == 485 && y == 270) mutexbe.lock();
-
         // trilho ce
         if (ID == 3 && x == 465 && y == 255) mutexce.lock();
         if (ID == 5 && x == 600 && y == 285) mutexce.lock();
+
+        // trilho ef
+        if (ID == 5 && x == 580 && y == 390) mutexef.lock();
+        if (ID == 6 && x == 755 && y == 270) mutexef.lock();
 
         // trilho cf
         if (ID == 3 && x == 580 && y == 270) mutexcf.lock();
@@ -62,10 +66,6 @@ void Trem::run()
         // trilho de
         if (ID == 4 && x == 310 && y == 390) mutexde.lock();
         if (ID == 5 && x == 350 && y == 270) mutexde.lock();
-
-        // trilho ef
-        if (ID == 5 && x == 580 && y == 390) mutexef.lock();
-        if (ID == 6 && x == 620 && y == 270) mutexef.lock();
 
         switch (ID)
         {
