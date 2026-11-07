@@ -29,19 +29,19 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent),
 
     // inicializa os slider
     ui->horizontalSlider_a->setRange(0, 200);
-    ui->horizontalSlider_a->setValue(15);
+    ui->horizontalSlider_a->setValue(100);
     ui->horizontalSlider_b->setRange(0, 200);
-    ui->horizontalSlider_b->setValue(15);
+    ui->horizontalSlider_b->setValue(100);
     ui->horizontalSlider_c->setRange(0, 200);
-    ui->horizontalSlider_c->setValue(15);
+    ui->horizontalSlider_c->setValue(100);
     ui->horizontalSlider_d->setRange(0, 200);
-    ui->horizontalSlider_d->setValue(15);
+    ui->horizontalSlider_d->setValue(100);
     ui->horizontalSlider_e->setRange(0, 200);
-    ui->horizontalSlider_e->setValue(15);
+    ui->horizontalSlider_e->setValue(100);
     ui->horizontalSlider_f->setRange(0, 200);
-    ui->horizontalSlider_f->setValue(15);
+    ui->horizontalSlider_f->setValue(100);
     ui->horizontalSlider_m->setRange(0, 200);
-    ui->horizontalSlider_m->setValue(15);
+    ui->horizontalSlider_m->setValue(100);
 
     trem_a->start();
     trem_b->start();
