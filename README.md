@@ -11,7 +11,7 @@ Leonardo Alencar de Aquino — 20250048986
 
 1 - Baixe o projeto\
 2 - Abra-o em sua IDE de preferência\
-3 - Execute os seguintes comandos abaixo (certifique-se de que se encontra em um ambiente Linux e no diretório .../projeto-trens ou .../projeto-trens-main):
+3 - Execute os seguintes comandos abaixo (certifique-se de que se encontra em um ambiente Linux e que o diretório do terminal está na pasta anterior à pasta src):
 ```
 cd src
 mkdir build
